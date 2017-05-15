@@ -8,6 +8,6 @@ import org.springframework.data.repository.CrudRepository;
 import hello.model.Man;
 
 
-public interface ManRepository extends CrudRepository<Man, Long> {
+public interface ManRepository extends CrudRepository<Man, Integer> {
 
 }
